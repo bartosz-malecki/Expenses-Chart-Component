@@ -1,4 +1,4 @@
-.container {
+.head_container {
   position: relative;
   display: flex;
   align-items: center;
@@ -8,6 +8,7 @@
   padding: 1.3rem;
   background-color: hsl(10, 79%, 65%);
   text-align: left;
+  margin-bottom: 20px;
 
   label {
     font-size: 14px;

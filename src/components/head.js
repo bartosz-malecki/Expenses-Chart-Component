@@ -3,7 +3,7 @@ import "./head.scss";
 
 const Head = () => {
   return (
-    <div className="container">
+    <div className="head_container">
       <div>
         <label>My balance</label>
         <div className="balance_amount">$921.48</div>
