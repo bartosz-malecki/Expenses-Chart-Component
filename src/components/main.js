@@ -1,6 +1,6 @@
-import { getDefaultNormalizer } from "@testing-library/react";
 import React from "react";
 import "./main.scss";
+import MainTotal from "./main_total";
 
 const Main = () => {
   return (
@@ -10,16 +10,7 @@ const Main = () => {
       </div>
       <div>wykres</div>
       <hr></hr>
-      <div>
-        <div>
-          <label>Total this month</label>
-          <span>$478.33</span>
-        </div>
-        <div>
-          <span>+2.4%</span>
-          <span>from last month</span>
-        </div>
-      </div>
+      <MainTotal />
     </div>
   );
 };

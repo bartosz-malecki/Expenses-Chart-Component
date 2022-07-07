@@ -5,12 +5,16 @@
   border-radius: 10px;
   padding: 1.3rem;
   background-color: hsl(33, 100%, 98%);
-  color: black;
+  color: hsl(25, 47%, 15%);
   text-align: left;
-  margin-bottom: 20px;
 
   h1 {
     font-size: 1.5rem;
     font-weight: 700;
+    margin: 0;
+  }
+
+  hr {
+    border-top: 1px solid hsl(27, 66%, 92%);
   }
 }

@@ -1,0 +1,24 @@
+.summary_container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+  padding: 8px 0;
+
+  label {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+  }
+
+  div:nth-child(2) {
+    text-align: right;
+    font-weight: 700;
+  }
+}
+
+.total_amount {
+  font-size: 34px;
+  font-weight: 700;
+}
