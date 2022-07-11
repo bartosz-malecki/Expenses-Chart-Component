@@ -1,6 +1,7 @@
 import React from "react";
 import "./main.scss";
 import MainTotal from "./main_total";
+import Chart from "./chart";
 
 const Main = () => {
   return (
@@ -8,7 +9,7 @@ const Main = () => {
       <div>
         <h1>Spending - Last 7 days</h1>
       </div>
-      <div>wykres</div>
+      <Chart />
       <hr></hr>
       <MainTotal />
     </div>
